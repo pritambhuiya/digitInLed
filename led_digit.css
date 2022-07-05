@@ -1,0 +1,45 @@
+.led-digit {
+  width: 35%;
+  height: 30%;
+  display: flex;
+}
+
+.led-digit>div {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-led {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.middle-led {
+  justify-content: space-between;
+}
+
+.right-led {
+  justify-content: space-around;
+}
+
+.led {
+  background-color: rgba(177, 141, 129, 0.3);
+  border-radius: 100%;
+}
+
+.vertical {
+  width: 16%;
+  height: 42%;
+}
+
+.horizontal {
+  width: 100%;
+  height: 6%;
+}
+
+.light-on {
+  background-color: rgba(0, 255, 0, 1.0);
+  box-shadow: 0 0 2em rgba(0, 255, 0, 1.0);
+}

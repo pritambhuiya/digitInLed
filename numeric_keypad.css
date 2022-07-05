@@ -1,0 +1,25 @@
+.numeric_keypad {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.button {
+  width: 30%;
+  height: 20%;
+  border: 0;
+  border-radius: 0.5em;
+  font-size: 1.8em;
+  box-shadow: 5px 5px gray;
+}
+
+.button:hover {
+  background-color: aliceblue;
+}
+
+.button:active {
+  box-shadow: -5px -5px gray;
+}
